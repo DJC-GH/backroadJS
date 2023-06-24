@@ -2,7 +2,7 @@ const Tour = ({ img, date, title, text, city, days, price }) => {
   return (
     <article className='tour-card'>
       <div className='tour-img-container'>
-        <img src={img} className='tour-img' />
+        <img src={img} className='tour-img' alt={" "} />
         <p className='tour-date'>{date}</p>
       </div>
       <div className='tour-info'>
